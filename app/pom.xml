@@ -40,12 +40,12 @@
     <repository>
         <id>central</id>
         <name>Linuxvm-releases</name>
-        <url>http://20.89.133.150:8082/artifactory/libs-release-local</url>
+        <url>https://gsspringboot.jfrog.io/artifactory/test-libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>Linuxvm-snapshots</name>
-        <url>http://20.89.133.150:8082/artifactory/libs-snapshot-local</url>
+        <url>https://gsspringboot.jfrog.io/artifactory/test-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
     <build>
