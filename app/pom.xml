@@ -41,18 +41,6 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>Linuxvm-releases</name>
-        <url>https://gsspringboot.jfrog.io/artifactory/test-libs-release-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Linuxvm-snapshots</name>
-        <url>https://gsspringboot.jfrog.io/artifactory/test-libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
     <build>
         <plugins>
             <plugin>
